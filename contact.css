@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@200&display=swap');
+body{
+    font-family: 'Inconsolata', monospace;
+}
+footer{
+ 
+    color: whitesmoke;
+  
+    text-align: center ;
+
+ 
+}
+form{
+    margin: 0 auto;
+    max-width: 900px;
+}
+ footer input, textarea, button{
+    border: none;
+    width: 55%;
+    padding: 15px 10px;
+    margin: 1px 0;
+    font-size: 1.2em;
+    border-radius: 8px;
+
+    
+    
+
+}
+textarea{
+    height: 120px;
+}
+button{
+    font-size: 1.5em;
+    background-color: #DFFFFB;
+}
+button:hover{
+    background-color: #15514A ;
+    color: whitesmoke;
+    transition: 0.5s ease-in-out;
+    cursor: pointer;
+}
+.trait{
+    height: 1px;
+    width: 75%;
+    background-color: rgb(233, 221, 247);
+    margin: 60px auto;
+}.CopyrightandIcons{
+    display: flex;
+    margin-bottom: 20px;
+    padding: 0 10%;
+}
+.copyright{
+    width: 50%;
+    text-align: left;
+    color: #474747 ;
+    font-size: 15px;
+}
+.icons{
+    width: 50%;
+    text-align: right;
+}
+.icons a{
+    display: inline-block;
+    padding: 0 15px;
+    font-size: 1.3em;
+    color: #140110;
+}
+.icons a:hover{
+    transform: scale(1.5);
+    transition:0.3s ;
+    color: #a1fff5;
+    
+}
